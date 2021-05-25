@@ -10,8 +10,8 @@ export const GifGrid = ({category}) => {
     return(
         <>
             <h3 className='catTitle'>{category}</h3>
-            {loading && <p>Loading...</p>} 
-            <div className='groupCategory'>                                 
+            {loading && <p className='item animate__animated item animate__animated'>Loading...</p>} 
+            <div className='groupCategory item animate__animated animate__fadeIn'>                                 
                 {
                     images.map( img => 
                         (

@@ -40,9 +40,7 @@ ul img {
 li { list-style: none;margin: 0; padding: 0;}
 .groupCategory {
     display: block;
-    position: relative;
-    width: 100%;
-    
+    position: relative;    
 }
 .catTitle { 
     display: flex;
@@ -50,6 +48,7 @@ li { list-style: none;margin: 0; padding: 0;}
     align-items: stretch;
     justify-content: center;
     color: #ccc;
+    text-transform: uppercase;
     
 }
 .catTitle::after {

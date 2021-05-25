@@ -4,7 +4,7 @@ import '../components/GifGridItem.css';
 export const GifGridItem = ({id,title,url,share}) => {
     
     return(
-        <div className='item' >
+        <div className='item animate__animated animate__fadeIn' >
             <div className='image'>
                 <img src={ url } alt= { title } />
             </div> 
