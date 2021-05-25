@@ -1,0 +1,35 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    background: #000;
+    margin: 0rem 0rem 1rem 0rem;
+    padding: 1.5rem;
+    border-bottom: 5px solid #ccc;
+}
+.item .image {
+    height: 100px;
+    padding-right: 1rem;
+    position: relative;
+    display: inline-block;
+}
+.item img {
+    overflow: hidden;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: inline-block;
+    position: relative;
+}
+.item h4 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.item h4::first-letter {
+    text-transform: uppercase;
+}
+.item a { color: #fff;}

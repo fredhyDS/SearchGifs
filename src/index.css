@@ -1,13 +1,61 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    color: rgb(0, 238, 255);
+    background: #21232A;
+    font-family: 'Open Sans';
+    position: relative;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.mainTitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+form {width: 100%; position: relative; display: flex;justify-content: center;}
+input {
+    border-radius: 0px!important;
+    border: 0;
+    padding: .5rem;
+    width: 50%;
+    font-size: 1.5rem;
+    color: #000;
+}
+input::placeholder {
+    opacity: .5;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+ul img {
+    max-width: 100%;
+}
+li { list-style: none;margin: 0; padding: 0;}
+.groupCategory {
+    display: block;
+    position: relative;
+    width: 100%;
+    
+}
+.catTitle { 
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    color: #ccc;
+    
+}
+.catTitle::after {
+    display: block;
+    flex: 1;
+    margin: auto 0 auto 24px;
+    border-bottom: 1px dotted #ccc;
+    content: " ";
 }
